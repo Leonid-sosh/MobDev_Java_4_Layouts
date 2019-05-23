@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">visual</string>
+    <string name="button">Button</string>
+    <string name="btntext">Нижний текст</string>
 </resources>

@@ -43,7 +43,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:hint="@string/hint"
-            android:inputType="text" />
+            android:inputType="text"
+            android:autofillHints=""/>
 
     </LinearLayout>
 
@@ -53,10 +54,9 @@
     android:layout_height="0dp"
     android:layout_marginTop="20dp"
     android:layout_weight="1"/>
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -64,14 +64,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="OK" />
+            android:text="@string/btnok"
+            style="@android:style/ButtonBar"/>
 
         <Button
             android:id="@+id/cnc_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="cancel" />
+            android:text="@string/btncancel"
+            style="@android:style/ButtonBar"/>
+
     </LinearLayout>
 
 </LinearLayout>

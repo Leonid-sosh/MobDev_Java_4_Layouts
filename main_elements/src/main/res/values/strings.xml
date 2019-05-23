@@ -5,4 +5,6 @@
     <string name="button">Update The TextView</string>
     <string name="text_after_button">Button pressed!</string>
     <string name="hint">A name</string>
+    <string name="btnok">OK</string>
+    <string name="btncancel">cancel</string>
 </resources>
